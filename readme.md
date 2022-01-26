@@ -24,12 +24,18 @@ PORT=3000
 
 ###### Database
 DB_HOST=0.0.0.0
+
 DB_PORT=3306
+
 DB_USERNAME=root
+
 DB_PASSWORD=root
+
 DB_NAME=my_app_db
 
 ###### Cache
 REDIS_HOST=0.0.0.0
+
 REDIS_PORT=6379
+
 REDIS_PASSWORD=''
