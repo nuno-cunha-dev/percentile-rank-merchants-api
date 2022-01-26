@@ -10,6 +10,9 @@ This system is divided into two parts:
  - a **public API** where data is returned almost instantly to the user because it fetches the percentiles from the cache.
 
 
+### Install dependencies
+`npm i`
+
 ### Run command to populate cache
 `npm run calculate-spending-rank -- --from='2020-07-18' --to='2020-07-28'`
 
