@@ -3,7 +3,7 @@ Knowing that the database is huge, I assume that the transactions table has an i
 
 
 ### Description
-This system is horizontally scalable because it can handle an increasing number of requests when creating new instances. These instances are configured to fetch user percentiles to a cache. In this case, I used redis, because it acts as a fast key-value database.
+This system is horizontally scalable because it can handle an increasing number of requests when creating new instances behind a load balancer. These instances are configured to fetch user percentiles to a cache. In this case, I used redis, because it acts as a fast key-value database.
 
 This system is divided into two parts:
  - a **command** that will search the transactions table for the date. It then calculates the percentiles and writes to the cache.
