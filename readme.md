@@ -1,5 +1,5 @@
 ### Assumption
-Knowing that the database is huge, I assume that the transactions table has an index by date.
+Knowing that the database is huge, I assume the transaction table has an index by date. And the command queries to populate the cache will be executed against a DB replica.
 
 
 ### Description
@@ -18,7 +18,7 @@ This system is divided into two parts:
 
 
 ### Run public API in development mode
-`zen dev`
+`npm run start`
 
 
 ### .env example
